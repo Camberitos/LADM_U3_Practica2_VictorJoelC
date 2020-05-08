@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <EditText
+        android:id="@+id/nombre2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="NOMBRE RESTAURANT" />
+
+    <EditText
+        android:id="@+id/domicilio2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="DOMICILIO RESTAURANT" />
+
+    <EditText
+        android:id="@+id/telefono2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="TELÉFONO RESTAURANT (XXX-XXX-XX-XX)" />
+
+    <TextView
+        android:id="@+id/pedido2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="PEDIDO" />
+
+    <EditText
+        android:id="@+id/descripcion2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="DESCRIPCIÓN PEDIDO" />
+
+    <EditText
+        android:id="@+id/precio2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:hint="PRECIO PEDIDO"/>
+
+    <EditText
+        android:id="@+id/cantida2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="CANTIDAD DE PRODCUTOS" />
+
+    <CheckBox
+        android:id="@+id/entregado2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Entregado"
+        android:checked="true"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="20dp">
+
+        <Button
+            android:id="@+id/actualizar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="70dp"
+            android:layout_marginLeft="40dp"
+            android:text="ACTUALIZAR" />
+
+        <Button
+            android:id="@+id/regresar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="REGRESAR" />
+    </LinearLayout>
+</LinearLayout>
